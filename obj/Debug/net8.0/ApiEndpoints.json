@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "ProjectPlatec.Controllers.API",
+    "Method": "Login",
+    "RelativePath": "api/API/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ProjectPlatec.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectPlatec.Controllers.StudentAttendanceAPI",
+    "Method": "GetAttendance",
+    "RelativePath": "api/StudentAttendanceAPI/student/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
